@@ -9,6 +9,13 @@
 			"svelte": "./dist/index.js"
 		}
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bertybot/svelte-world.git"
+	},
+	"bugs": {
+		"url": "https://github.com/bertybot/svelte-world/issues"
+	},
 	"files": [
 		"dist",
 		"!dist/**/*.test.*",
