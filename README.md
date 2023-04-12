@@ -1,4 +1,4 @@
-# svelte-worldtour
+# svelte-worldwide
 
 A fully reactive globe component written with Svelte + D3!
 
