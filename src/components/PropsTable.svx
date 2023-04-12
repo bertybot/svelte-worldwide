@@ -1,0 +1,39 @@
+<script lang="ts">
+    export let width = 375;
+    export let name = '';
+    export let duration = 800
+
+    export let sphereStroke = '#cccccc';
+    export let sphereFill = '#FFFFFF';
+    export let landStroke:string | null = null;
+    export let landFill = '#cccccc';
+    export let selectedFill = '#FF0000';
+    export let arcStroke = '#000000';
+    export let arcStrokeWidth = 2;
+</script>
+<details>
+<summary>Props</summary>
+
+| Name     | Type              | Value                                         |
+|----------|-------------------|-----------------------------------------------|
+| world    | TopoJSON.Topology | `required`                                    |
+| width    | number            | <input type="number" min="1" bind:value={width} />    | 
+| name     | string            | {name}                                        |
+| duration | number            | <input type="number" bind:value={duration} /> |
+</details>
+
+<details>
+<summary>Style</summary>
+
+Styles can be modified via css variables.
+
+| Name                                | Value |
+|-------------------------------------|-------|
+| --svelte-world-sphere-stroke    | <input type="color"  bind:value={sphereStroke} />  |
+| --svelte-world-sphere-fill      | <input type="color"  bind:value={sphereFill} /> |
+| --svelte-world-land-stroke      | <input type="color"  bind:value={landStroke} />  |
+| --svelte-world-land-fill        | <input type="color"  bind:value={landFill} />   |
+| --svelte-world-selected-fill    | <input type="color"  bind:value={selectedFill} />   |
+| --svelte-world-arc-stroke       | <input type="color"  bind:value={arcStroke} /> |
+| --svelte-world-arc-stroke-width | <input type="number" bind:value={arcStrokeWidth} />    |
+</details>
