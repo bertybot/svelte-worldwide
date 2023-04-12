@@ -1,0 +1,45 @@
+# About
+
+## Introduction
+Svelte world is a portable interactive globe component built with Svelte and D3.
+This component can easily be imported into any project and used to display a globe with a selected country highlighted.
+
+## Installation
+
+Install the package using your favorite package manager.
+``` bash
+# npm
+npm i svelte-world
+
+# pnpm
+pnpm i svelte-world
+```
+
+To fully utilize this component you will need to import the topojson data for the globe. This can easily be done in your PageLoad function in Sveltekit, or a simple fetch call.
+I recommend using the [world-atlas](https://github.com/topojson/world-atlas) repo to get your topojson data.
+``` javascript
+//+page.js
+/** @type {import('./$types').PageLoad} */
+export const load = (async ({ fetch }) => {
+		const res = await fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json');
+		const world = await res.json();
+		return { world };
+})
+````
+Import the component into your project and use it as a normal Svelte component.
+``` html
+<script>
+    import Projection from 'svelte-world';
+
+    /** @type {import('./$types').PageData} */
+    export let data;
+</script>
+
+<Projection world={data.world} />
+```
+
+## Features
+
+### World Tour
+By modifying the `name` prop to a country name, the globe will reactively animate to that country and highlight it.
+
