@@ -11,10 +11,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bertybot/svelte-world.git"
+		"url": "git+https://github.com/bertybot/svelte-worldwide.git"
 	},
 	"bugs": {
-		"url": "https://github.com/bertybot/svelte-world/issues"
+		"url": "https://github.com/bertybot/svelte-worldwide/issues"
 	},
 	"files": [
 		"dist",
