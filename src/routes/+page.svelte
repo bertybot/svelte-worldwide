@@ -61,10 +61,10 @@
 </script>
 
 <svelte:head>
-	<title>Svelte-world</title>
+	<title>Svelte-Worldwide</title>
 	<meta name="description" content="Svelte Globe demo" />
 </svelte:head>
-<h1>Welcome to Svelte world!</h1>
+<h1>Welcome to Svelte Worldwide!</h1>
 
 <section>
 	<Projection
@@ -72,13 +72,13 @@
 		{name}
 		{duration}
 		world={data.world}
-		--svelte-world-sphere-stroke={sphereStroke}
-		--svelte-world-sphere-fill={sphereFill}
-		--svelte-world-land-stroke={landStroke}
-		--svelte-world-land-fill={landFill}
-		--svelte-world-selected-fill={selectedFill}
-		--svelte-world-arc-stroke={arcStroke}
-		--svelte-world-arc-stroke-width={arcStrokeWidth}
+		--svelte-worldwide-sphere-stroke={sphereStroke}
+		--svelte-worldwide-sphere-fill={sphereFill}
+		--svelte-worldwide-land-stroke={landStroke}
+		--svelte-worldwide-land-fill={landFill}
+		--svelte-worldwide-selected-fill={selectedFill}
+		--svelte-worldwide-arc-stroke={arcStroke}
+		--svelte-worldwide-arc-stroke-width={arcStrokeWidth}
 	/>
 	<p aria-live="polite">{status}</p>
 </section>

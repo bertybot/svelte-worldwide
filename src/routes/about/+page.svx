@@ -1,7 +1,7 @@
 # About
 
 ## Introduction
-Svelte world is a portable interactive globe component built with Svelte and D3.
+Svelte Worldwide is a portable interactive globe component built with Svelte and D3.
 This component can easily be imported into any project and used to display a globe with a selected country highlighted.
 
 ## Installation
@@ -9,10 +9,10 @@ This component can easily be imported into any project and used to display a glo
 Install the package using your favorite package manager.
 ``` bash
 # npm
-npm i svelte-world
+npm i svelte-worldwide
 
 # pnpm
-pnpm i svelte-world
+pnpm i svelte-worldwide
 ```
 
 To fully utilize this component you will need to import the topojson data for the globe. This can easily be done in your PageLoad function in Sveltekit, or a simple fetch call.

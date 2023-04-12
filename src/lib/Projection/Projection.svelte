@@ -118,18 +118,18 @@
 
 <style>
 	.sphere {
-		stroke: var(--svelte-world-sphere-stroke, #ccc);
-		fill: var(--svelte-world-sphere-fill, white);
+		stroke: var(--svelte-worldwide-sphere-stroke, #ccc);
+		fill: var(--svelte-worldwide-sphere-fill, white);
 	}
 	.land {
-		stroke: var(--svelte-world-land-stroke, none);
-		fill: var(--svelte-world-land-fill, #ccc);
+		stroke: var(--svelte-worldwide-land-stroke, none);
+		fill: var(--svelte-worldwide-land-fill, #ccc);
 	}
 	.selected {
-		fill: var(--svelte-world-selected-fill, red);
+		fill: var(--svelte-worldwide-selected-fill, red);
 	}
 	.arc {
-		stroke: var(--svelte-world-arc-stroke, black);
-		stroke-width: var(--svelte-world-arc-stroke-width, 2);
+		stroke: var(--svelte-worldwide-arc-stroke, black);
+		stroke-width: var(--svelte-worldwide-arc-stroke-width, 2);
 	}
 </style>

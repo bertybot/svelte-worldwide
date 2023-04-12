@@ -29,11 +29,11 @@ Styles can be modified via css variables.
 
 | Name                                | Value |
 |-------------------------------------|-------|
-| --svelte-world-sphere-stroke    | <input type="color"  bind:value={sphereStroke} />  |
-| --svelte-world-sphere-fill      | <input type="color"  bind:value={sphereFill} /> |
-| --svelte-world-land-stroke      | <input type="color"  bind:value={landStroke} />  |
-| --svelte-world-land-fill        | <input type="color"  bind:value={landFill} />   |
-| --svelte-world-selected-fill    | <input type="color"  bind:value={selectedFill} />   |
-| --svelte-world-arc-stroke       | <input type="color"  bind:value={arcStroke} /> |
-| --svelte-world-arc-stroke-width | <input type="number" bind:value={arcStrokeWidth} />    |
+| --svelte-worldwide-sphere-stroke    | <input type="color"  bind:value={sphereStroke} />  |
+| --svelte-worldwide-sphere-fill      | <input type="color"  bind:value={sphereFill} /> |
+| --svelte-worldwide-land-stroke      | <input type="color"  bind:value={landStroke} />  |
+| --svelte-worldwide-land-fill        | <input type="color"  bind:value={landFill} />   |
+| --svelte-worldwide-selected-fill    | <input type="color"  bind:value={selectedFill} />   |
+| --svelte-worldwide-arc-stroke       | <input type="color"  bind:value={arcStroke} /> |
+| --svelte-worldwide-arc-stroke-width | <input type="number" bind:value={arcStrokeWidth} />    |
 </details>
